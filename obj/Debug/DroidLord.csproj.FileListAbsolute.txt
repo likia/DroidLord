@@ -31,3 +31,33 @@ C:\Users\hh\Documents\Visual Studio 2015\Projects\DroidLord\DroidLord\obj\Debug\
 C:\Users\hh\Documents\Visual Studio 2015\Projects\DroidLord\DroidLord\bin\Debug\Phantom.pdb
 C:\Users\hh\Documents\Visual Studio 2015\Projects\DroidLord\DroidLord\obj\Debug\DroidLord.SelectForm.resources
 C:\Users\hh\Documents\Visual Studio 2015\Projects\DroidLord\DroidLord\obj\Debug\DroidLord.InputForm.resources
+I:\code\DroidLord\bin\Debug\Phantom.exe.config
+I:\code\DroidLord\bin\Debug\Phantom.exe.manifest
+I:\code\DroidLord\bin\Debug\Phantom.application
+I:\code\DroidLord\bin\Debug\Phantom.exe
+I:\code\DroidLord\bin\Debug\Phantom.pdb
+I:\code\DroidLord\bin\Debug\MaterialSkin.pdb
+I:\code\DroidLord\bin\Debug\Newtonsoft.Json.xml
+I:\code\DroidLord\bin\Debug\SharpAdbClient.pdb
+I:\code\DroidLord\bin\Debug\SharpAdbClient.xml
+I:\code\DroidLord\bin\Debug\Svg.pdb
+I:\code\DroidLord\bin\Debug\Svg.xml
+I:\code\DroidLord\bin\Debug\WinFormAnimation.pdb
+I:\code\DroidLord\obj\Debug\DroidLord.csprojResolveAssemblyReference.cache
+I:\code\DroidLord\obj\Debug\DroidLord.ConsoleForm.resources
+I:\code\DroidLord\obj\Debug\DroidLord.InputForm.resources
+I:\code\DroidLord\obj\Debug\DroidLord.LoginForm.resources
+I:\code\DroidLord\obj\Debug\DroidLord.MainForm.resources
+I:\code\DroidLord\obj\Debug\DroidLord.NetLogForm.resources
+I:\code\DroidLord\obj\Debug\DroidLord.Properties.Resources.resources
+I:\code\DroidLord\obj\Debug\DroidLord.ScreenForm.resources
+I:\code\DroidLord\obj\Debug\DroidLord.SelectForm.resources
+I:\code\DroidLord\obj\Debug\DroidLord.SettingEdit.resources
+I:\code\DroidLord\obj\Debug\DroidLord.SlaveViewer.resources
+I:\code\DroidLord\obj\Debug\DroidLord.csproj.GenerateResource.cache
+I:\code\DroidLord\obj\Debug\DroidLord.csproj.CoreCompileInputs.cache
+I:\code\DroidLord\obj\Debug\Phantom.exe.manifest
+I:\code\DroidLord\obj\Debug\Phantom.application
+I:\code\DroidLord\obj\Debug\DroidLord.csproj.CopyComplete
+I:\code\DroidLord\obj\Debug\Phantom.exe
+I:\code\DroidLord\obj\Debug\Phantom.pdb

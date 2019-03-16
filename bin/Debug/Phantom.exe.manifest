@@ -4,7 +4,7 @@
   <description asmv2:iconFile="www.ico.la_bf5ef745c0e471bc9f800cd448110a26_128X128.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Phantom" version="1.0.6164.18955" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="Phantom" version="1.0.7014.38087" language="neutral" processorArchitecture="msil" />
     <commandLine file="Phantom.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -16,15 +16,15 @@
       <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
         <!--
           UAC 清单选项
-          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
-          requestedExecutionLevel 节点。
+         若想要更改 Windows 用户帐户控制级别，请
+         将 requestedExecutionLevel 节点替换为下述某项。
 
-        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
-        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
-        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+       <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+       <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+       <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
 
-          如果要利用文件和注册表虚拟化提供
-          向后兼容性，请删除 requestedExecutionLevel 节点。
+        若想要使用文件和注册表虚拟化以实现向后
+        兼容，请删除 requestedExecutionLevel 节点。
     -->
         <requestedExecutionLevel level="asInvoker" uiAccess="false" />
       </requestedPrivileges>
@@ -80,13 +80,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Phantom.exe" size="222720">
-      <assemblyIdentity name="Phantom" version="1.0.6164.18955" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="Phantom" version="1.0.7014.38087" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>W/KRGwdspiHs3zXBqe7HqYGsvycgSLvinq0Xa2otd3Y=</dsig:DigestValue>
+        <dsig:DigestValue>wLm25nNnIjtzGBY4orir7xW1dowZRRY8oOr3G7Mpnq0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

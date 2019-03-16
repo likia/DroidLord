@@ -1,0 +1,18 @@
+﻿System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DroidLord.Security.AES.Encrypt(String data) 位置 I:\code\DroidLord\Security\AES.cs:行号 70
+   在 DroidLord.UAC.Action(String name, String val, ICipher algorithm) 位置 I:\code\DroidLord\UAC.cs:行号 77
+   在 DroidLord.UAC.Login(String u, String pw) 位置 I:\code\DroidLord\UAC.cs:行号 137
+   在 DroidLord.LoginForm.<btnLogin_Click>b__3_0() 位置 I:\code\DroidLord\LoginForm.cs:行号 55
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 DroidLord.Security.AES.Encrypt(String data) 位置 I:\code\DroidLord\Security\AES.cs:行号 70
+   在 DroidLord.UAC.Action(String name, String val, ICipher algorithm) 位置 I:\code\DroidLord\UAC.cs:行号 77
+   在 DroidLord.UAC.Offline() 位置 I:\code\DroidLord\UAC.cs:行号 43
+   在 DroidLord.Program.Application_ApplicationExit(Object sender, EventArgs e) 位置 I:\code\DroidLord\Program.cs:行号 159
+   在 System.Windows.Forms.Application.RaiseExit()
+   在 System.Windows.Forms.Application.ThreadContext.Dispose(Boolean postQuit)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   在 System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   在 DroidLord.Program.Main() 位置 I:\code\DroidLord\Program.cs:行号 131
