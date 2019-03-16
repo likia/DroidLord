@@ -1,0 +1,5 @@
+正在尝试对空流进行反序列化
+
+   在 System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   在 System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream)
+   在 DroidLord.Core.SaveManager.LoadStorage(String FileName) 位置 C:\Users\hh\documents\visual studio 2015\Projects\DroidLord\DroidLord\Core\SaveManager.cs:行号 56

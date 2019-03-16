@@ -1,0 +1,68 @@
+{
+    "display": "幻影微信",
+    "version": "1.0.0",
+    "require": [
+        {
+            "type": "select",
+            "title": "执行方式",
+            "value": [
+                "0.无","1.文字朋友圈","2.图文朋友圈","3.文字群发","4.通讯录好友","5.附近的人"
+            ],
+            "return": "$EXE"
+        },
+        {
+            "type": "select",
+            "title": "图片数量",
+            "value": ["1","2","3","4","5","6","7","8","9"],
+            "return": "$IMG"
+        },
+        {            
+            "type": "content",
+            "return": "$CONTENT"            
+        }        
+    ],
+    "configuration": 
+    {
+        "width": 720,
+        "height": 1280,
+        "style": "default",
+        "timer": 2,
+        "selpage": 0,
+        "views": [
+            {
+            "isAdd": "False",
+            "list": "0.无,1.文字朋友圈,2.图文朋友圈,3.文字群发,4.通讯录好友,5.附近的人",
+            "nowrap": 0,
+            "scale": 0,
+            "returnStr": "$EXE",
+            "select": "$EXE",
+            "size": 0,
+            "type": "ComboBox",
+            "width": 0
+            },
+            {
+            "isAdd": "False",
+            "prompt": "素材",
+            "nowrap": 0,
+            "scale": 0,
+            "text": "$CONTENT",
+            "select": "$CONTENT",
+            "returnStr": "$CONTENT",
+            "size": 0,
+            "type": "Edit",
+            "width": 0
+            },
+            {
+            "isAdd": "False",
+            "list": "1,2,3,4,5,6,7,8,9",
+            "nowrap": 0,
+            "scale": 0,
+            "returnStr": "$IMG",
+            "select": "$IMG",
+            "size": 0,
+            "type": "ComboBox",
+            "width": 0
+            }
+        ]
+    }
+}

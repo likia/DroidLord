@@ -1,0 +1,11 @@
+无法找到程序集“Phantom, Version=1.0.0.21357, Culture=neutral, PublicKeyToken=461d39c4a423da0b”。
+
+   在 System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo.GetAssembly()
+   在 System.Runtime.Serialization.Formatters.Binary.ObjectReader.GetType(BinaryAssemblyInfo assemblyInfo, String name)
+   在 System.Runtime.Serialization.Formatters.Binary.BinaryConverter.TypeFromInfo(BinaryTypeEnum binaryTypeEnum, Object typeInformation, ObjectReader objectReader, BinaryAssemblyInfo assemblyInfo, InternalPrimitiveTypeE& primitiveTypeEnum, String& typeString, Type& type, Boolean& isVariant)
+   在 System.Runtime.Serialization.Formatters.Binary.__BinaryParser.ReadArray(BinaryHeaderEnum binaryHeaderEnum)
+   在 System.Runtime.Serialization.Formatters.Binary.__BinaryParser.Run()
+   在 System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize(HeaderHandler handler, __BinaryParser serParser, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   在 System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   在 ..(Object , Object )
+   在 ..(String  )

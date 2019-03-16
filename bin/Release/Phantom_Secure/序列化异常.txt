@@ -1,0 +1,6 @@
+ObjectManager 发现链接地址信息的数目无效。这通常表示格式化程序中有问题。
+
+   在 System.Runtime.Serialization.ObjectManager.DoFixups()
+   在 System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize(HeaderHandler handler, __BinaryParser serParser, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   在 ..(Object , Object )
+   在 ..(String  )

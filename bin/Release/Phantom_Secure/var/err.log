@@ -1,0 +1,36 @@
+﻿SharpAdbClient.Exceptions.AdbException: invalid data message
+   在 SharpAdbClient.SyncService.Push(Stream stream, String remotePath, Int32 permissions, DateTime timestamp, CancellationToken cancellationToken) 位置 C:\Users\hh\Desktop\madb-master\madb-master\SharpAdbClient\SyncService.cs:行号 202
+   在 DroidLord.Slavery.Slave.UploadScript(String path) 位置 C:\Users\hh\Documents\Visual Studio 2015\Projects\DroidLord\DroidLord\Slavery\Slave.cs:行号 184
+   在 DroidLord.MainForm.<>c__DisplayClass16_0.<btnSync_Click>b__0() 位置 C:\Users\hh\Documents\Visual Studio 2015\Projects\DroidLord\DroidLord\MainForm.cs:行号 372
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()SharpAdbClient.Exceptions.AdbException: invalid data message
+   在 SharpAdbClient.SyncService.Push(Stream stream, String remotePath, Int32 permissions, DateTime timestamp, CancellationToken cancellationToken) 位置 C:\Users\hh\Desktop\madb-master\madb-master\SharpAdbClient\SyncService.cs:行号 202
+   在 DroidLord.Slavery.Slave.UploadScript(String path) 位置 C:\Users\hh\Documents\Visual Studio 2015\Projects\DroidLord\DroidLord\Slavery\Slave.cs:行号 184
+   在 DroidLord.MainForm.<>c__DisplayClass16_0.<btnSync_Click>b__0() 位置 C:\Users\hh\Documents\Visual Studio 2015\Projects\DroidLord\DroidLord\MainForm.cs:行号 372
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()System.ArgumentException: 在某个线程上创建的控件不能成为在另一个线程上创建的控件的父级。
+   在 System.Windows.Forms.Control.ControlCollection.Add(Control value)
+   在 System.Windows.Forms.Form.ControlCollection.Add(Control value)
+   在 DroidLord.SelectForm.InitializeComponent() 位置 C:\Users\hh\Documents\Visual Studio 2015\Projects\DroidLord\DroidLord\SelectForm.Designer.cs:行号 102
+   在 DroidLord.SelectForm..ctor() 位置 C:\Users\hh\Documents\Visual Studio 2015\Projects\DroidLord\DroidLord\SelectForm.cs:行号 18
+   在 DroidLord.MainForm.<>c__DisplayClass15_1.<btnExecute_Click>b__2() 位置 C:\Users\hh\Documents\Visual Studio 2015\Projects\DroidLord\DroidLord\MainForm.cs:行号 361
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()SharpAdbClient.Exceptions.AdbException: Is a directory
+   在 SharpAdbClient.SyncService.Push(Stream stream, String remotePath, Int32 permissions, DateTime timestamp, CancellationToken cancellationToken) 位置 C:\Users\hh\Desktop\madb-master\madb-master\SharpAdbClient\SyncService.cs:行号 202
+   在 DroidLord.MainForm.<>c__DisplayClass15_2.<btnExecute_Click>b__3() 位置 C:\Users\hh\Documents\Visual Studio 2015\Projects\DroidLord\DroidLord\MainForm.cs:行号 379
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()SharpAdbClient.Exceptions.AdbException: Is a directory
+   在 SharpAdbClient.SyncService.Push(Stream stream, String remotePath, Int32 permissions, DateTime timestamp, CancellationToken cancellationToken) 位置 C:\Users\hh\Desktop\madb-master\madb-master\SharpAdbClient\SyncService.cs:行号 202
+   在 DroidLord.MainForm.<>c__DisplayClass15_2.<btnExecute_Click>b__3() 位置 C:\Users\hh\Documents\Visual Studio 2015\Projects\DroidLord\DroidLord\MainForm.cs:行号 379
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   在 System.Threading.ThreadHelper.ThreadStart()
